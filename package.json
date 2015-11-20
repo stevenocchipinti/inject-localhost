@@ -1,0 +1,14 @@
+{
+  "name": "inject-localhost",
+  "version": "1.0.0",
+  "description": "Inject files from localhost into every page!",
+  "main": "contentscript.js",
+  "scripts": {
+    "server": "node_modules/.bin/http-server --cors -c1"
+  },
+  "author": "Steven Occhipinti",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.8.5"
+  }
+}
